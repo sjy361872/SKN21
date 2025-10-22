@@ -64,4 +64,6 @@ st.title("보스톤 지역 주거지역 정보")
 btn = st.button("정보 조회")
 if btn:
     st.dataframe(data)
+else:
+    st.write("버튼을 클릭하면 보스톤 지역 정보를 볼 수 있습니다.")
 

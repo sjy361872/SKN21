@@ -25,3 +25,4 @@ v3 = st.sidebar.radio(
 )
 
 st.write(f"선택한 지역: **{v3}**")
+st.sidebar.write(v3)
